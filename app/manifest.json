@@ -1,6 +1,6 @@
 {
   "name": "__MSG_appName__",
-  "version": "0.0.32",
+  "version": "0.0.43",
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "icons": {
@@ -8,21 +8,9 @@
     "128": "images/icon-128.png"
   },
   "default_locale": "en",
-  "background": {
-    "scripts": [
-      "scripts/chromereload.js",
-      "scripts/background.js"
-    ]
-  },
   "permissions": [
-    "tabs",
     "http://*/*",
-    "https://*/*",
-    "history",
-    "idle",
-    "pageCapture",
-    "storage",
-    "webRequest"
+    "https://*/*"
   ],
   "options_ui": {
     "page": "options.html",
