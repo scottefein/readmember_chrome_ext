@@ -1,6 +1,6 @@
 {
   "name": "__MSG_appName__",
-  "version": "0.0.1",
+  "version": "0.0.17",
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "icons": {
@@ -22,8 +22,7 @@
     "idle",
     "pageCapture",
     "storage",
-    "webRequest",
-    "*://*.google.com"
+    "webRequest"
   ],
   "options_ui": {
     "page": "options.html",
