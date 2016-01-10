@@ -16,8 +16,34 @@ for (i=0; i<metas.length; i++) {
 			var scrollHeight = body.scrollHeight;
 		}
 	 }
+	 if (url.indexOf('vox.com') > -1){
+	 	var body = document.getElementById('article-body');
+		if(body){
+			var scrollHeight = body.scrollHeight;
+		}
+	 }
+	 if (url.indexOf('longreads.com') > -1){
+	 	var body = document.getElementById('content');
+		if(body){
+			var scrollHeight = body.scrollHeight;
+		}
+	 }
+	 if (url.indexOf('huffingtonpost.com') > -1){
+	 	var body = document.getElementById('entry-body');
+		if(body){
+			var scrollHeight = body.scrollHeight;
+		}
+	 }
+	 if (url.indexOf('technologyreview.com') > -1){
+	 	var body = document.getElementById('main-article');
+		if(body){
+			var scrollHeight = body.scrollHeight;
+		}
+	 }
   } 
 }
+
+//news, leisure, 
 
 var timeInMs = Date.now();
 
